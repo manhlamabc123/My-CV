@@ -9,7 +9,8 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -67,77 +68,76 @@
 \begin{document}
 
 %----------HEADING-----------------
+
+\includegraphics[width=5em]{images/Ảnh thẻ.JPG}
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Tran Duc Manh} & Email: \href{mailto:manh.td194616@sis.hust.edu.vn}{manh.td194616@sis.hust.edu.vn}\\
-  Github: \href{https://github.com/manhlamabc123}{https://github.com/manhlamabc123} & Mobile : 035-725-1858 \\
+	\textbf{\Large Tran Duc Manh} & Email: \href{mailto:manh.td194616@sis.hust.edu.vn}{manh.td194616@sis.hust.edu.vn}\\
+	Github: \href{https://github.com/manhlamabc123}{https://github.com/manhlamabc123} & Mobile : 035-725-1858 \\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Hanoi of University of Science and Technology}{Hanoi, Vietnam}
-      {4th year student;  GPA: 3.54/4.00}{Aug. 2019 -- now}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Hanoi of University of Science and Technology}{Hanoi, Vietnam}
+{4th year student;  GPA: 3.54/4.00}{Aug. 2019 -- now}
+\resumeSubheading
+{ISE Lab}{Hanoi, Vietnam}
+{4th year student;  GPA: 3.54/4.00}{Aug. 2022 -- now}
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Project}
- \resumeSubHeadingListStart
-   \item \textbf{Face Emotion Recognition}{: \href{https://github.com/manhlamabc123/Face-Emotion-Recognition}{https://github.com/manhlamabc123/Face-Emotion-Recognition}}
-   	\begin{itemize}
-   	 \item Python, PyTorch
-   	 \item A model to classify human's face emotion (happiness, sadness, anger, fear, disgust, surprise and neutral)
-   	 \item A deep learning, using Attentional Convolutional Network. Attention mechanism is added through Spatial Transformer Network
-   	\end{itemize}
-   \item \textbf{Chatbot}{: \href{https://github.com/manhlamabc123/Deep-Chatbot}{https://github.com/manhlamabc123/Deep-Chatbot}}
-   	\begin{itemize}
-   	 \item Python, PyTorch
-   	 \item A chatbot using Deep Learning
-   	 \item Using Sequence\_to\_Sequence Model train on Cornell Movie-Dialogs Corpus dataset
-   	\end{itemize}
-	   \item \textbf{Neural Machine Translation}{: \href{https://github.com/manhlamabc123/Neural-Machine-Translation}{https://github.com/manhlamabc123/Neural-Machine-Translation}}
-   	\begin{itemize}
-   	 \item Python, PyTorch
-   	 \item Neural Machine Translation on multiple Model from English to Vietnamese
-   	 \item Answer 2 research questions:
-   	 \begin{itemize}
-		\item Is Sequence-to-sequence model using GRU with Attention mechanism better than one without it?
-		\item Is Sequence-to-sequence model using Transformer better than one using GRU with Attention mechanism?
-	 \end{itemize}
-   	\end{itemize}
- \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\item \textbf{Chatbot}{: \href{https://github.com/manhlamabc123/Deep-Chatbot}{https://github.com/manhlamabc123/Deep-Chatbot}}
+\begin{itemize}
+	\item Python, PyTorch
+	\item A chatbot using Deep Learning
+	\item Using Sequence\_to\_Sequence Model train on Cornell Movie-Dialogs Corpus dataset
+\end{itemize}
+\item \textbf{Neural Machine Translation}{: \href{https://github.com/manhlamabc123/Neural-Machine-Translation}{https://github.com/manhlamabc123/Neural-Machine-Translation}}
+\begin{itemize}
+	\item Python, PyTorch
+	\item Neural Machine Translation on multiple Model from English to Vietnamese
+	\item Answer 2 research questions:
+	      \begin{itemize}
+		      \item Is Sequence-to-sequence model using GRU with Attention mechanism better than one without it?
+		      \item Is Sequence-to-sequence model using Transformer better than one using GRU with Attention mechanism?
+	      \end{itemize}
+\end{itemize}
+\resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
- \resumeSubHeadingListStart
-   \item \textbf{Key Skills}{: Machine Learning Basic, Deep Learning Basic, Classification Model, Transfer Learning, Hyperparameter Tuning, Structure Machine Learning Project}
-   \item \textbf{Technical Skills}{:}
-    \begin{itemize}
-   	 \item \textbf{Languages: }Python, Java, C, SQL, HTML, CSS
-   	 \item \textbf{Frameworks: }Django, Tensorflow, PyTorch
-   	 \item \textbf{Technologies: }Android Studio
-   	 \item \textbf{Packages: }Pandas, NumPy, BeautifulSoup
-   	\end{itemize}
- \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\item \textbf{Key Skills}{: Machine Learning Basic, Deep Learning Basic, Classification Model, Transfer Learning, Hyperparameter Tuning, Structure Machine Learning Project}
+\item \textbf{Technical Skills}{:}
+\begin{itemize}
+	\item \textbf{Languages: }Python, Java, C, SQL, HTML, CSS
+	\item \textbf{Frameworks: }Django, Tensorflow, PyTorch
+	\item \textbf{Technologies: }Android Studio
+	\item \textbf{Packages: }Pandas, NumPy, BeautifulSoup
+\end{itemize}
+\resumeSubHeadingListEnd
 
 
 %-------------------------------------------
 %--------PROGRAMMING SKILLS------------
 \section{Skills \& Certificate}
- \resumeSubHeadingListStart
-   \item \textbf{Japanese}{: JLPT N3}
-   \item \textbf{Coursera's Certificate}{: }
-   	\begin{itemize}
-   	 \item Neural Networks and Deep Learning: \href{https://www.coursera.org/account/accomplishments/verify/3SV6ZM83PAPY}{Course's Certificate}
-   	 \item Improving Deep Neural Networks: \href{https://www.coursera.org/account/accomplishments/verify/K7R7RXN6Q7SV}{Course's Certificate}
-   	 \item Structuring Machine Learning Projects: \href{https://www.coursera.org/account/accomplishments/verify/LDATR4NBCUGX}{Course's Certificate}
-   	 \item Convolutional Neural Networks: \href{https://www.coursera.org/account/accomplishments/verify/V5T79CX4DHVH}{Course's Certificate}
-   	 \item Sequence Models: \href{https://coursera.org/share/9426110071f6af536da81856863076c5}{Course's Certificate}
-   	\end{itemize}
- \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\item \textbf{Japanese}{: JLPT N3}
+\item \textbf{Coursera's Certificate}{: }
+\begin{itemize}
+	\item Neural Networks and Deep Learning: \href{https://www.coursera.org/account/accomplishments/verify/3SV6ZM83PAPY}{Course's Certificate}
+	\item Improving Deep Neural Networks: \href{https://www.coursera.org/account/accomplishments/verify/K7R7RXN6Q7SV}{Course's Certificate}
+	\item Structuring Machine Learning Projects: \href{https://www.coursera.org/account/accomplishments/verify/LDATR4NBCUGX}{Course's Certificate}
+	\item Convolutional Neural Networks: \href{https://www.coursera.org/account/accomplishments/verify/V5T79CX4DHVH}{Course's Certificate}
+	\item Sequence Models: \href{https://coursera.org/share/9426110071f6af536da81856863076c5}{Course's Certificate}
+\end{itemize}
+\resumeSubHeadingListEnd
 
 
 %-------------------------------------------
